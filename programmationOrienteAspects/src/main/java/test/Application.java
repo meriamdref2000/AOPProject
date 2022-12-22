@@ -7,9 +7,7 @@ import metier.MetierBanqueImpl;
 import java.util.Scanner;
 
 public class Application {
-    //il faut indiquer à l IDE qu'on est en train de compiler avec aspectj -->
-    //settings-> build, execution, deployment -> compiler ->java compiler--> ue compiler --> ajc et dans le path : C:\aspectj1.9\lib\aspectjtools.jar
-    //C:\aspectj1.9\lib\aspectjtools.jar -> le tisseur d'aspect
+
     public static void main(String[] args){
         //System.out.println("Message from Main Application");
         new Application().start();
